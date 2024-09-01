@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class BycicleConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'bycicle'
+    name = 'bicycle'
