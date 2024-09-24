@@ -7,4 +7,5 @@ class BicycleSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Bicycle
-        fields = ('name', 'status',)
+        fields = ('id', 'name', 'status',)
+        read_only_fields = ['id', 'status',]
